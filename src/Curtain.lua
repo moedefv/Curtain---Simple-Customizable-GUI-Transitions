@@ -37,7 +37,7 @@ function TransitionService:Fade(frame1 : GuiObject, frame2 : GuiObject, transiti
 	Transition("Fade", frame1, frame2, transitionConfig, customCallback)
 end
 
-function TransitionService:Iris(frame1 : GuiObject, frame2 : GuiObject, transitionConfig : ConfigTypes.FadeConfig, customCallback: (() -> ())?)
+function TransitionService:Iris(frame1 : GuiObject, frame2 : GuiObject, transitionConfig : ConfigTypes.IrisConfig, customCallback: (() -> ())?)
 	Transition("Iris", frame1, frame2, transitionConfig, customCallback)
 end
 
